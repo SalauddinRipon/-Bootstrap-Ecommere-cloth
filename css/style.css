@@ -1,0 +1,143 @@
+@charset utf-8
+/****************css**************/
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+header{
+	margin-top: 60px;
+}
+.search_icon{
+	background-color: #18d96e;
+	color: #fff;
+}
+.headerNav{
+	padding-top: 35px;
+	padding-bottom: 10px;
+}
+.headerNav .logo{
+	max-width: 70px;
+}
+.dropdown-menu > li > a:hover{
+	background-color: #18d96e;
+}
+.headerNav > li > a{
+	color: #000;
+	background-color: transparent;
+}
+
+.headerNav >li >a:hover{
+	background-color: #18d96e;
+}
+.headerNav >li a.icon{
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.headerNav >li a.USAflag{
+	border-left: 1px solid #dcdcdc;
+	padding-left: 20px;
+}
+.headerNav >li a.flagThree{
+	border-right: 1px solid #dcdcdc;
+	padding-right: 20px;
+}
+.headerNav >li a.flag_icon{
+	padding-left: 7px;
+}
+.headerNav >li a.dollar_sign{
+	padding-right: 20px;
+}							/*======end of header========*/
+
+/*===slider====*/
+.slider_caption{
+	padding-bottom: 140px;
+	padding-right: 200px;
+}
+.slider_caption h5{
+	color: #40525d;
+}
+.slider_caption h1{
+	color: #000;
+}
+.slider_caption p:nth-child(3){
+	color: #c48aa0;
+	max-width: 223px;
+	margin: 0 auto;
+}
+.slider_caption p:nth-child(6){
+	color: #9fabb5;
+	font-size: 12px;
+}
+
+.slider_caption .btn{
+	margin-bottom: 5px;
+	margin-top: 32px;
+	
+}
+.slider_caption .btn:hover{
+	background-color: #18d96e;
+}
+.icon{
+	color: #000;
+}									/*=======end slider=====*/
+							
+/*==========service=====*/
+.fIcon {
+		font-size: 32px;
+		color: #ff8000;
+		border: 1px solid #ebebeb;
+		padding: 20px;
+	}
+.fIcon:hover{
+	color: #fff;
+	background-color: #ff8000;
+	border-radius: 50%;
+}              
+#service{
+	padding-top: 55px;
+	padding-bottom: 80px;
+}
+#service .fIcon{
+	float: left;
+	margin-right: 15px;
+}								/*======end service====*/
+
+/*=====product=====*/
+#product{
+	margin-bottom: 70px;
+}
+#product h2{
+	font-size: 32px;
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 23px;
+}
+.imgContainer{
+	margin-top: 22px;
+}
+.imgContent{
+	padding-top: 35px;
+}
+#product h3{
+	font-size: 24px;
+	font-weight: bold;
+	max-width: 224px;
+	margin: 0 auto;
+	padding-bottom: 22px;
+}
+#product p{
+	font-size: 15px;
+	color: #939592;
+	max-width: 218px;
+	margin: 0 auto;
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+#product i{
+	font-size: 16px;
+	font-weight: bold;
+}
+#about_us{
+	color: #18d96e;
+	border-top: 20px solid #18d96e;
+}
